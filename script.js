@@ -1,8 +1,5 @@
-//header slideslow
-// Background Slideshow
 const header = document.getElementById("hero");
 
-// Array of images for slideshow
 const bgImages = [
   "htr1.jpg",
   "htr2.jpg",
@@ -18,14 +15,11 @@ function changeBackground() {
   currentIndex = (currentIndex + 1) % bgImages.length;
 }
 
-// Initial background
 changeBackground();
 
-// Change every 4 seconds
-setInterval(changeBackground, 4000);
+setInterval(changeBackground, 3000);
 
 
-// Sample Destinations Data
 const destinations = [
     {
       name: "Paris, France",
@@ -82,7 +76,6 @@ const destinations = [
   const destinationList = document.querySelector(".destination-list");
   const bookingForm = document.getElementById("bookingForm");
   
-  // Render Destinations
   destinations.forEach(dest => {
     const div = document.createElement("div");
     div.classList.add("destination");
@@ -97,7 +90,6 @@ const destinations = [
     destinationList.appendChild(div);
   });
   
-  // Booking Form Functions
   function openForm() {
     bookingForm.style.display = "block";
   }

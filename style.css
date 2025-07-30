@@ -27,15 +27,15 @@ header {
   }
   
   header h1 {
-    color: white;
+    color: coral;
     font-size: 36px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.89);
   }
   
   header p {
-    color: white;
+    color: coral;
     font-size: 18px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.815);
   }
   .destination-list {
     display: grid;
