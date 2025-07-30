@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="hero">
+        <h1>🌍 Travel Explorer</h1>
+        <p>Discover, Plan & Book Your Dream Tour</p>
+      </header>
+
+  <section class="destination-list">
+    <!-- Destinations will be loaded dynamically with JS -->
+  </section>
+
+  <div class="booking-form" id="bookingForm">
+    <h2>Book Your Tour</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+    <button class="close-btn" onclick="closeForm()">Close</button>
+  </div>
+
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <h2>Travel Explorer</h2>
+      <p>Discover the world, one destination at a time.</p>
+
+      <div class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="social-media">
+        <a href="#" title="Facebook">🌐</a>
+        <a href="#" title="Instagram">📸</a>
+        <a href="#" title="Twitter">🐦</a>
+      </div>
+    </div>
+
+    <p class="copyright">
+      &copy; 2025 Travel Explorer. All Rights Reserved.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
