@@ -8,8 +8,6 @@ body {
   header {
     text-align: center;
     padding: 20px;
-    background: #0077b6;
-    color: white;
   }
 
   /* headr slide slow */
@@ -27,13 +25,15 @@ header {
   }
   
   header h1 {
-    color: coral;
+    background-color: rgba(0, 0, 0, 0.255);
+    color: white;
     font-size: 36px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.89);
   }
   
   header p {
-    color: coral;
+    background-color: rgba(0, 0, 0, 0.255);
+    color: white;
     font-size: 18px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.815);
   }
@@ -93,14 +93,16 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
-    padding: 30px;
+    background: wheat;
+    padding: 80px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     display: none;
+    
   }
   
   .booking-form input, .booking-form button {
+    display: flex;
     display: block;
     width: 100%;
     margin: 10px 0;
@@ -110,9 +112,8 @@ header {
   .close-btn {
     background: red;
     color: white;
+    border-radius: 10px;
   }
-
-
 
 
   /* Footer Styles */
